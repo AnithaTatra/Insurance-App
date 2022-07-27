@@ -1,54 +1,29 @@
 {
-  "name": "InsuranceApp",
+  "name": "onlineapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "packageManager": "yarn@3.2.1",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "^6.1.1",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "@material-ui/core": "^4.12.4",
-    "@material-ui/icons": "^4.11.3",
-    "@react-oauth/google": "^0.2.6",
-    "@rsuite/icons": "^1.0.2",
-    "@types/react": "^18.0.14",
-    "@types/react-dom": "^18.0.5",
-    "@types/react-router-dom": "^5.3.3",
-    "axios": "^0.27.2",
+    "@sendgrid/mail": "^7.7.0",
     "bcrypt": "^5.0.1",
-    "bcryptjs": "^2.4.3",
-    "bootstrap": "^5.1.3",
-    "braintree-web": "^3.85.5",
-    "braintree-web-drop-in-react": "^1.2.1",
-    "canvasjs": "^1.8.3",
-    "canvasjs-react-charts": "^1.0.5",
-    "js-base64": "^3.7.2",
-    "mdbreact": "^5.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-facebook-login": "^4.1.1",
-    "react-router-dom": "^5.3.3",
-    "react-scripts": "^5.0.1",
-    "react-select": "^5.3.2",
-    "react-simple-sidenav": "^2.0.0",
-    "rsuite": "^5.15.1",
-    "sweetalert": "^2.1.2",
-    "validator": "^13.7.0",
-    "yarn": "^1.22.19"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "braintree": "^3.11.0",
+    "config": "3.3.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.8",
+    "nodemailer": "^6.7.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
   }
 }
